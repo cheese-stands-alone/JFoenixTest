@@ -1,0 +1,18 @@
+group 'com.text.JFoenix'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.9
+
+mainClassName = 'com.test.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.jfoenix', name: 'jfoenix', version: '9.0.1'
+}
+
